@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Clique droit pour modifier l'adresse ou le label</translation>
+        <translation>Clic droit pour modifier l'adresse ou le libellé</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -15,7 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Copier l'adresse actuelle dans le presse-papier</translation>
+        <translation>Copier l'adresse sélectionnée dans le presse-papier</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -31,7 +31,7 @@
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporter l</translation>
+        <translation>Exporter les données de l'onglet actuel vers un fichier</translation>
     </message>
     <message>
         <source>&amp;Export</source>
@@ -55,11 +55,11 @@
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adresses d'envoie</translation>
+        <translation>Adresses d'envoi</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adresses de reception</translation>
+        <translation>Adresses de réception</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -67,7 +67,7 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copier le label</translation>
+        <translation>Copier le libellé</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -94,7 +94,7 @@
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Libellé</translation>
     </message>
     <message>
         <source>Address</source>
@@ -102,7 +102,7 @@
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de label)</translation>
+        <translation>(pas de libellé)</translation>
     </message>
 </context>
 <context>
@@ -125,7 +125,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Cette opération requiert votre phrase secrète pour déverrouiller votre portefeuille.</translation>
+        <translation>Cette opération nécessite votre phrase secrète pour déverrouiller le portefeuille.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -133,7 +133,7 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Cette opération nécessite votre phrase secrète de portefeuille pour décrypter le portefeuille </translation>
+        <translation>Cette opération nécessite votre phrase secrète pour décrypter le portefeuille.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -153,11 +153,11 @@
     </message>
     <message>
         <source>Bitcoin2 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTC2s from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin2 va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos BTC2s d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <translation>Bitcoin2 va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos BTC2s d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
+        <translation>Êtes-vous sûr de vouloir crypter votre portefeuille ?</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BTC2&lt;/b&gt;!</source>
@@ -189,11 +189,11 @@
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Le décryptage de votre portefeuille a échoué.</translation>
+        <translation>Le décryptage du portefeuille a échoué</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>La phrase secrète de votre portefeuille a été changée avec succès.</translation>
+        <translation>La phrase secrète du portefeuille a été changée avec succès.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -204,15 +204,15 @@
     <name>Bip38ToolDialog</name>
     <message>
         <source>BIP 38 Tool</source>
-        <translation>BIP 38 outils</translation>
+        <translation>Outils BIP 38 </translation>
     </message>
     <message>
         <source>&amp;BIP 38 Encrypt</source>
-        <translation>BIP 38 crypter</translation>
+        <translation>Cryptage BIP 38</translation>
     </message>
     <message>
         <source>Enter a Bitcoin2 Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Bitcoin2 que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <translation>Entrer une adresse Bitcoin2 que vous voulez crypter en utilisant BIP 38. Entrer une phrase secrète dans le champ du milieu. Cliquer sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
@@ -268,7 +268,7 @@
     </message>
     <message>
         <source>&amp;BIP 38 Decrypt</source>
-        <translation>BIP 38 Décrypter</translation>
+        <translation>Décryptage BIP 38</translation>
     </message>
     <message>
         <source>The Bitcoin2 address the message was signed with</source>
@@ -292,11 +292,11 @@
     </message>
     <message>
         <source>Click "Decrypt Key" to compute key</source>
-        <translation>Cliquez sur "Décrypter la clé" pour calculer la clé</translation>
+        <translation>Cliquer sur "Décrypter la clé" pour calculer la clé</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>La phrase secrète entrée est incorrect.</translation>
+        <translation>La phrase secrète entrée est incorrecte.</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -312,7 +312,7 @@
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'adresse renseignée ne correspond à aucune à une clé.</translation>
+        <translation>L'adresse renseignée ne correspond à aucune clé.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -320,7 +320,7 @@
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>La clé privé pour l'adresse entrée n'est pas valide.</translation>
+        <translation>La clé privée pour l'adresse entrée n'est pas valide.</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
@@ -391,7 +391,7 @@
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Afficher les information concernant Qt</translation>
+        <translation>Afficher les informations concernant Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
@@ -419,7 +419,7 @@
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Sauvegarder ailleurs le portefeuille </translation>
+        <translation>Sauvegarder le portefeuille vers un autre emplacement</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
@@ -431,7 +431,7 @@
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>Déverrouiller le portefeuille</translation>
+        <translation>Déverrouiller le portefeuille...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Montrer les options de réparation du portefeuille </translation>
+        <translation>Montrer les options de réparation du portefeuille</translation>
     </message>
     <message>
         <source>Open configuration file</source>
@@ -491,11 +491,11 @@
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Montrer les sauvegardes de portefeuille créées automatiquements</translation>
+        <translation>Montrer les sauvegardes de portefeuille créées automatiquement</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>Adresses d'envoie</translation>
+        <translation>Adresses d'envoi...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -503,7 +503,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Adresses de réception</translation>
+        <translation>Adresses de réception...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
@@ -511,7 +511,7 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Ouvir URI...</translation>
+        <translation>Ouvrir URI...</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -551,11 +551,11 @@
     </message>
     <message>
         <source>Sign messages with your Bitcoin2 addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse Bitcoin2 pour prouver qu'elles sont bien à vous.</translation>
+        <translation>Signer les messages avec vos adresses Bitcoin2 pour prouver qu'elles vous appartiennent.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin2 addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Bitcoin2 spécifié</translation>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse Bitcoin2 spécifiée</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -567,15 +567,15 @@
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synchronisation avec le réseau</translation>
+        <translation>Synchronisation avec le réseau..</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Importation des bloques depuis le disque</translation>
+        <translation>Importation des blocs depuis le disque...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ré-indexation des bloques sur le disque</translation>
+        <translation>Ré-indexation des blocs sur le disque...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -591,7 +591,7 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Le dernier bloque reçu a été généré il y a %1</translation>
+        <translation>Le dernier bloc reçu a été généré il y a %1</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
@@ -611,7 +611,7 @@
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Transaction sortie</translation>
+        <translation>Transaction envoyée</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
@@ -624,7 +624,7 @@ Type: %3
 Address: %4
 </source>
         <translation>Date : %1
-montan t: %2
+Montant: %2
 Type : %3
 Adresse : %4
 </translation>
@@ -654,7 +654,7 @@ Adresse : %4
     </message>
     <message>
         <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (bitcoin2.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (bitcoin2.conf).</translation>
+        <translation>Toutes les transaction ne seront pas affichées. Pour voir toutes les transactions, vous devez ajouter txindex=1 dans le fichier de configuration (bitcoin2.conf).</translation>
     </message>
 </context>
 <context>
@@ -684,7 +684,7 @@ Adresse : %4
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Après commission</translation>
+        <translation>Après commission :</translation>
     </message>
     <message>
         <source>(un)select all</source>
@@ -728,7 +728,7 @@ Adresse : %4
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copier le montant</translation>
+        <translation>Copier le libellé</translation>
     </message>
     <message>
         <source>Copy amount</source>
@@ -756,7 +756,7 @@ Adresse : %4
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Veuillez changer pour le "Mode liste" afin d'utiliser cette fonction</translation>
+        <translation>Veuillez changer pour le "Mode liste" afin d'utiliser cette fonction.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -816,11 +816,11 @@ Adresse : %4
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Les transactions avec une priorité plus haute ont plus de chance d'être incluses dans un bloque.</translation>
+        <translation>Les transactions avec une priorité plus haute ont plus de chance d'être incluses dans un bloc.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de label)</translation>
+        <translation>(pas de libellé)</translation>
     </message>
     <message>
         <source>(change)</source>
@@ -839,7 +839,7 @@ Adresse : %4
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nouvelle adresse de reception</translation>
+        <translation>Nouvelle adresse de réception</translation>
     </message>
     <message>
         <source>New sending address</source>
@@ -847,7 +847,7 @@ Adresse : %4
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Modifier l'adresse de reception</translation>
+        <translation>Modifier l'adresse de réception</translation>
     </message>
     <message>
         <source>Edit sending address</source>
@@ -855,11 +855,11 @@ Adresse : %4
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin2 address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse Bitcoin2 valide</translation>
+        <translation>L'adresse entrée "%1" n'est pas une adresse Bitcoin2 valide.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'adresse entrée "%1" est déjà dans la liste d'adresse</translation>
+        <translation>L'adresse entrée "%1" est déjà dans le carnet d'adresses.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -867,7 +867,7 @@ Adresse : %4
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>La création de la nouvelle clé à échoué</translation>
+        <translation>Echec de création de la nouvelle clé.</translation>
     </message>
 </context>
 <context>
@@ -889,14 +889,14 @@ Adresse : %4
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Utilisation</translation>
+        <translation>Utilisation :</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Bienvenu</translation>
+        <translation>Bienvenue</translation>
     </message>
     <message>
         <source>Error</source>
@@ -904,11 +904,11 @@ Adresse : %4
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB de place disponible</translation>
+        <translation>%1 GB de place libre disponible</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(de %1 GB libre nécessaire)</translation>
+        <translation>(de %1 GB requis)</translation>
     </message>
 </context>
 <context>
@@ -923,7 +923,7 @@ Adresse : %4
     </message>
     <message>
         <source>Status</source>
-        <translation>Statuts</translation>
+        <translation>Statut</translation>
     </message>
     <message>
         <source>Active</source>
@@ -935,15 +935,15 @@ Adresse : %4
     </message>
     <message>
         <source>Confirm masternode start</source>
-        <translation>Confirmer le lancement de la masternode</translation>
+        <translation>Confirmer le lancement du masternode</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?</source>
-        <translation>Êtes-vous sûr de vouloir lancer la masternode %1?</translation>
+        <translation>Êtes-vous sûr de vouloir lancer le masternode %1?</translation>
     </message>
     <message>
         <source>Are you sure you want to start ALL masternodes?</source>
-        <translation>Êtes-vous sûr de vouloir lancer TOUTES les masternodes?</translation>
+        <translation>Êtes-vous sûr de vouloir lancer TOUS les masternodes ?</translation>
     </message>
     <message>
         <source>Command is not available right now</source>
@@ -974,7 +974,7 @@ Adresse : %4
     </message>
     <message>
         <source>Choose an address from the address book</source>
-        <translation>Choisir une adresse depuis la liste des adresses</translation>
+        <translation>Choisir une adresse depuis le carnet d'adresses</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -999,7 +999,7 @@ Adresse : %4
     <message>
         <source>The entered address:
 </source>
-        <translation>L'adresse entrée:
+        <translation>L'adresse entrée :
 </translation>
     </message>
     <message>
@@ -1015,7 +1015,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <message>
         <source>Could not locate address
 </source>
-        <translation>N'a pas pu localisé l'adresse
+        <translation>N'a pas pu localiser l'adresse
 </translation>
     </message>
 </context>
@@ -1039,15 +1039,15 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 BTC2</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 BTC2</translation>
+        <translation>Utiliser 2 masternodes différents pour mélanger les fonds jusqu'à 10000 BTC2</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 BTC2</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 BTC2</translation>
+        <translation>Utiliser 8 masternodes différents pour mélanger les fonds jusqu'à 10000 BTC2</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Utiliser 16 masternodes différentes</translation>
+        <translation>Utiliser 16 masternodes différents</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 BTC2 to anonymize 10000 BTC2</source>
@@ -1055,22 +1055,22 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 BTC2 to anonymize 10000 BTC2</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 BTC2 pour anonymiser 10000 BTC2</translation>
+        <translation>Cette option est moyennement rapide et coutera 0.05 BTC2 pour anonymiser 10000 BTC2</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
+        <translation>Il s'agit de l'option la plus lente est la plus sécurisée. Utiliser l'anonymat maximum coûtera</translation>
     </message>
     <message>
         <source>0.1 BTC2 per 10000 BTC2 you anonymize.</source>
-        <translation>0.1 BTC2 par 10000 BTC2 vous anonymisez.</translation>
+        <translation>0.1 BTC2 pour 10000 BTC2 que vous anonymisez.</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>URI:</source>
-        <translation>URI:</translation>
+        <translation>URI :</translation>
     </message>
     </context>
 <context>
@@ -1085,7 +1085,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Accepter les connections depuis l'extérieur</translation>
+        <translation>Accepter les connexions depuis l'extérieur</translation>
     </message>
     <message>
         <source>none</source>
@@ -1153,7 +1153,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Fonds insuffisants!</translation>
+        <translation>Fonds insuffisants !</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1183,7 +1183,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Enregistrer l'image</translation>
+        <translation>Enregistrer l'image...</translation>
     </message>
     <message>
         <source>Save QR Code</source>
@@ -1214,7 +1214,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Nombre de connections</translation>
+        <translation>Nombre de connexions</translation>
     </message>
     <message>
         <source>Network</source>
@@ -1222,7 +1222,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Nombre actuel de bloques</translation>
+        <translation>Nombre actuel de blocs</translation>
     </message>
     <message>
         <source>Client version</source>
@@ -1305,7 +1305,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Copier le montant</translation>
+        <translation>Copier le libellé</translation>
     </message>
     <message>
         <source>Copy message</source>
@@ -1328,11 +1328,11 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Copier l'asdresse</translation>
+        <translation>Copier l'adresse</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>Enregistrer l'image</translation>
+        <translation>Enregistrer l'image...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
@@ -1356,7 +1356,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Libellé</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1371,7 +1371,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Libellé</translation>
     </message>
     <message>
         <source>Message</source>
@@ -1383,7 +1383,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de label)</translation>
+        <translation>(pas de libellé)</translation>
     </message>
     <message>
         <source>(no message)</source>
@@ -1402,7 +1402,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Fonds insuffisants!</translation>
+        <translation>Fonds insuffisants !</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -1430,7 +1430,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Après commission</translation>
+        <translation>Après commission :</translation>
     </message>
     <message>
         <source>0 BTC2</source>
@@ -1438,7 +1438,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Commission de transaction</translation>
+        <translation>Commission de transaction :</translation>
     </message>
     <message>
         <source>Choose...</source>
@@ -1450,7 +1450,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Personnalisé:</translation>
+        <translation>Personnalisé :</translation>
     </message>
     <message>
         <source>normal</source>
@@ -1498,7 +1498,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Êtes vous sûr de vouloir envoyer?</translation>
+        <translation>Êtes vous sûr de vouloir envoyer ?</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -1514,7 +1514,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(pas de label)</translation>
+        <translation>(pas de libellé)</translation>
     </message>
 </context>
 <context>
@@ -1545,7 +1545,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Supprimer cette entré</translation>
+        <translation>Supprimer cette entrée</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -1631,7 +1631,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>L'adresse entrée est incorrect.</translation>
+        <translation>L'adresse entrée est incorrecte.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
@@ -1639,7 +1639,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'adresse renseignée ne correspond à aucune à une clé.</translation>
+        <translation>L'adresse renseignée ne correspond à aucune clé.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -1647,11 +1647,11 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>La clé privé pour l'adresse entrée n'est pas valide.</translation>
+        <translation>La clé privée pour l'adresse entrée n'est pas disponible.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>La signature du message a échoué</translation>
+        <translation>La signature du message a échoué.</translation>
     </message>
     </context>
 <context>
@@ -1664,7 +1664,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     <name>TransactionDesc</name>
     <message>
         <source>Status</source>
-        <translation>Statuts</translation>
+        <translation>Statut</translation>
     </message>
     <message>
         <source>Date</source>
@@ -1694,7 +1694,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Date et heure a laquelle la transaction fut reçue</translation>
+        <translation>Date et heure à laquelle la transaction a été reçue</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
@@ -1702,11 +1702,11 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Adresse destinataire de la transaction.</translation>
+        <translation>Adresse de destination de la transaction.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Montant retiré ou ajouté a la balance.</translation>
+        <translation>Montant retiré ou ajouté à la balance.</translation>
     </message>
 </context>
 <context>
@@ -1765,7 +1765,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Label</translation>
+        <translation>Libellé</translation>
     </message>
     <message>
         <source>Address</source>
@@ -1797,7 +1797,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exporter l</translation>
+        <translation>Exporter les données de l'onglet actuel vers un fichier</translation>
     </message>
     </context>
 <context>
