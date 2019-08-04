@@ -332,7 +332,7 @@
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Les donnés ne sont pas valides.</translation>
+        <translation>Les données ne sont pas valides.</translation>
     </message>
     <message>
         <source>Please try again.</source>
