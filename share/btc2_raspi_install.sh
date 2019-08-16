@@ -53,7 +53,7 @@ sudo apt-get install -y ufw
 sudo ufw allow 8333
 sudo ufw allow ssh
 sudo ufw allow vnc
-echo "y" | sudo ufw enable
+sudo ufw enable
 sudo ufw status
 echo -e "\e[92mDone...\e[0m"
 sleep 1
