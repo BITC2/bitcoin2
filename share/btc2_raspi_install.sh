@@ -65,7 +65,7 @@ echo -e "#######################################################################
 echo ""
 
 cd /usr/local/bin
-sudo wget https://github.com/BITC2/bitcoin2/releases/download/2.1.5/bitcoin2-2.1.5-arm-linux-gnueabihf.tar.gz
+sudo wget https://github.com/BITC2/bitcoin2/releases/download/2.2/bitcoin2-2.2.0-arm-linux-gnueabihf.tar.gz
 echo ""
 echo -e "\e[92mDone...\e[0m"
 sleep 1
@@ -75,9 +75,9 @@ echo -e "\e[1m##################################################################
 echo "              INSTALLING BITCOIN 2 CORE WALLET in /usr/local/bin/"
 echo -e "################################################################################\e[0m"
 echo ""
-sudo tar -zxvf bitcoin2-2.1.5-arm-linux-gnueabihf.tar.gz
-sudo mv -f bitcoin2-2.1.5/bin/* /usr/local/bin
-sudo rm -rf bitcoin2-2.1.5*
+sudo tar -zxvf bitcoin2-2.2.0-arm-linux-gnueabihf.tar.gz
+sudo mv -f bitcoin2-bin/* /usr/local/bin
+sudo rm -rf bitcoin2-bin/
 echo ""
 echo -e "\e[92mDone...\e[0m"
 sleep 1
