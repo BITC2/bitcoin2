@@ -129,7 +129,7 @@ echo "server=1" >> bitcoin2.conf
 echo "daemon=1" >> bitcoin2.conf
 echo "logtimestamps=1" >> bitcoin2.conf
 echo "upnp=1" >> bitcoin2.conf
-echo "maxconnections=32" >> bitcoin2.conf
+echo "maxconnections=16" >> bitcoin2.conf
 sleep 1
 echo ""
 echo -e "\e[92mDone...\e[0m"
@@ -137,15 +137,15 @@ sleep 1
 
 echo ""
 echo -e "\e[1m################################################################################"
-echo "           DOWNLOADING BITCOIN 2 BLOCKCHAIN SNAPSHOT (June 8 2019)"
+echo "           DOWNLOADING BITCOIN 2 BLOCKCHAIN SNAPSHOT (August 23 2019)"
 echo -e "     \e[31m\e[1m\e[5m/!\ IT MAY TAKE A LONG TIME /!\ DON'T TURN OFF YOUR RASPBERRY PI /!\ \e[0m"                  
 echo -e "\e[1m################################################################################\e[0m"
 echo ""
 
-wget https://www.bitc2.org/snapshot-june-8-2019.zip
-unzip snapshot-june-8-2019.zip
-rm snapshot-june-8-2019.zip
-rm SnapshotReadMe.txt
+wget https://www.bitc2.org/snapshot-August-23-2019.zip
+unzip snapshot-August-23-2019.zip
+rm snapshot-August-23-2019.zip
+rm ReadMe.txt
 echo ""
 echo -e "\e[92mDone...\e[0m"
 sleep 1
